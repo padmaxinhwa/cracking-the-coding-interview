@@ -1,35 +1,53 @@
 # cracking-the-coding-interview
 
-### Big-O
-- [ ] 시간, 공간 복잡도
-- [ ] 예제
+### 1. Big-O
+- Purpose: Measures algorithm efficiency in terms of time and space as input size grows.
+- Common Notations:
+  - O(1) – Constant time
+  - O(log n) – Logarithmic (e.g., binary search)
+  - O(n) – Linear
+  - O(n log n) – Log-linear (e.g., merge sort)
+  - O(n²), O(2ⁿ), O(n!) – Quadratic to exponential
+- Best, Average, Worst Cases: Analyze different scenarios for performance.
+- Space Complexity: Tracks additional memory used by an algorithm.
+- Amortized Analysis: Averages the cost of operations over a sequence (e.g., dynamic array resizing).
+  
 </br>
 
-### 자료구조
-- [ ] 배열과 문자열
-- [ ] 연결리스트
-- [ ] 스택과 큐
-- [ ] 트리와 그래프
+### Data Structures
+- [ ] Arrays and Strings: Fixed-size containers; focus on indexing, slicing, and in-place updates.
+- [ ] Linked Lists: Nodes connected by pointers; types include singly and doubly linked lists.
+- [ ] Stacks and Queues: LIFO and FIFO structures; often used in recursion, parsing, and scheduling.
+- [ ] Hash Tables: Key-value mapping with average O(1) access; important for lookups and deduplication.
+- [ ] Trees and Graphs:
+  - Trees: Binary, BSTs, Tries, Heaps (Min/Max), Balanced Trees (AVL, Red-Black)
+  - Graphs: Directed/Undirected, adjacency list/matrix; key for network and relationship modeling
+- [ ] Recursion: Solves problems by breaking them into subproblems; often tied to backtracking and divide-and-conquer.
+
 </br>
 
-### 알고리즘
-- [ ] 비트조작
-- [ ] 수학 및 논리 퍼즐
-- [ ] 객체 지향 설계
-- [ ] 재귀와 동적 프로그래밍
-- [ ] 시스템 설계 및 규모 확장성
-- [ ] 정렬과 탐색
-- [ ] 테스팅
+### Algorithms
+- [ ] Bit Manipulation: Solves problems efficiently using binary operations.
+
+- [ ] Math and Number Theory: Includes prime tests, GCD/LCM, modular arithmetic, permutations/combinations.
+- [ ] Object-Oriented Design: Understand classes, inheritance, polymorphism, encapsulation; apply design principles.
+- [ ] Dynamic Programming: Breaks problems into overlapping subproblems using memoization or tabulation.
+- [ ] Sorting: Merge sort, quicksort, heap sort, insertion sort—understand time/space trade-offs.
+- [ ] Searching: Binary search, BFS, DFS; critical for trees and graphs.
+- [ ] Testing: Unit testing, test cases, edge conditions.
 </br>
 
-### 지식 기반 문제
-- [ ] C와 C++
-- [ ] JAVA
-- [ ] 데이터베이스
-- [ ] 스레드와 락
+### Knowledge-Based Questions
+- [ ] System Design Basics: Covers scalability, caching, load balancing, database sharding, etc.
+- [ ] Databases: Basic SQL knowledge, normalization, indexing.
+- [ ] Concurrency: Threads, locks, deadlock avoidance, race conditions.
+- [ ] Testing: Unit testing, test cases, edge conditions.
+- [ ] Scalability Concepts: Horizontal/vertical scaling, statelessness, latency reduction.
+- [ ] Memory and Performance: Garbage collection, memory leaks, profiling basics.
+
 </br>
 
-### 고급 주제
+### Advanced Topics
 - [ ] 유용한 수학
 - [ ] 위상정렬
 - [ ] 다익스트라 알고리즘
@@ -38,4 +56,17 @@
 - [ ] Rabin-Karp 부분 문자열 탐색 알고리즘
 - [ ] AVL 트리
 - [ ] 레드-블랙 트리
-- [ ] MapReduce 
+- [ ] MapReduce
+- [ ] Design Patterns: Common solutions to recurring design problems (Singleton, Factory, Observer, etc.)
+
+Distributed Systems: CAP theorem, consistency models, message queues, eventual consistency.
+
+Machine Learning Basics (optional): Sometimes discussed in tech interviews.
+
+Advanced Graph Algorithms: Dijkstra, A*, Bellman-Ford, Union-Find, Topological Sort.
+
+Trie and Suffix Trees: Useful for string-related problems.
+
+Segment Trees and Fenwick Trees: Advanced structures for range queries and updates.
+
+Memory Optimization: Bit arrays, compression techniques, cache locality.
